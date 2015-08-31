@@ -33,55 +33,61 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Spoitfy Streamer"
-            android:id="@+id/button"
+            android:id="@+id/b_spotify"
             android:layout_gravity="center_horizontal"
             android:minWidth="200dp"
-            android:backgroundTint="#ffad1f" />
+            android:backgroundTint="#ffad1f"
+            android:onClick="toastApp" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Scores App"
-            android:id="@+id/button2"
+            android:id="@+id/b_scores"
             android:layout_gravity="center_horizontal"
             android:minWidth="200dp"
-            android:backgroundTint="#ffad1f" />
+            android:backgroundTint="#ffad1f"
+            android:onClick="toastApp" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Library App"
-            android:id="@+id/button3"
+            android:id="@+id/b_library"
             android:layout_gravity="center_horizontal"
             android:minWidth="200dp"
-            android:backgroundTint="#ffad1f" />
+            android:backgroundTint="#ffad1f"
+            android:onClick="toastApp" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Build It Bigger"
-            android:id="@+id/button4"
+            android:id="@+id/b_bigger"
             android:layout_gravity="center_horizontal"
             android:minWidth="200dp"
-            android:backgroundTint="#ffad1f" />
+            android:backgroundTint="#ffad1f"
+            android:onClick="toastApp" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="XYZ Reader"
-            android:id="@+id/button5"
+            android:id="@+id/b_xyz"
             android:layout_gravity="center_horizontal"
             android:minWidth="200dp"
-            android:backgroundTint="#ffad1f" />
+            android:backgroundTint="#ffad1f"
+            android:onClick="toastApp" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Capstone: My Own App"
-            android:id="@+id/button6"
+            android:id="@+id/b_capstone"
             android:layout_gravity="center_horizontal"
             android:minWidth="200dp"
             android:backgroundTint="#ff0003"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:onClick="toastApp" />
     </LinearLayout>
 </RelativeLayout>
